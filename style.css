@@ -1,12 +1,23 @@
+.img-about{
+    height: 450px;
+    width: 450px;
+    background-image:url("b (2).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.img-about:hover{
+    transition:.5s ease;
+ transform: translate(-10px,-50px);
+}
 body{
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins",sans-serif;
 } 
 .banner{
-    background-image: url(banner.jpg);
+    background-image: url(11ban.avif);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 280px 0;
 }
 .skill-padding{
-    padding: 80px 0;
+    padding: 83px 0;
 }
